@@ -25,7 +25,7 @@ include_once("dbconnect.php");
 </head>
 
     <header>
-    <nav class="navbar navbar-expand-lg bg-info">
+    <nav class="navbar navbar-expand-lg bg-light">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">Module_connexion</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -73,8 +73,9 @@ include_once("dbconnect.php");
                         <div class="form-group">
                             <label for="confirm_password">Confirmer la modification du password</label>
                             <input type="password" name="confirm_password" class="form-control form-control-lg" id="confirm_password">
-                        </div>
-                        <button type="submit" name="submit" class="btn btn-primary">Submit</button>
+                        </div><br>
+                        <div class="d-grid gap-2 col-6 mx-auto">
+                        <button type="submit" name="submit" class="btn btn-primary d-block">Submit</button></div>
                     </form>
                 </div>
             </div>
