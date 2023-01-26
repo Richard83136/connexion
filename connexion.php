@@ -109,13 +109,14 @@ if ( isset($_POST['submit']))
                             <input type="password" name="password" required class="form-control" id="exampleInputPassword1">
                         </div>
                         <div class="row">
-                        <button type="submit" name="submit" class="btn btn-primary mt-3 ">Connexion</button>
+                        <div class="d-grid gap-2 col-6 mx-auto">
+                        <button type="submit" name="submit" class="btn btn-primary mt-3 ">Connexion</button></div>
 							<br>
                         <div class="ins">
 							
                             <p class="alert alert-info alert-dismissible fade show mt-3 rounded">Vous n'êtes pas encore inscrit ?</p>
-							
-                        <a href="inscription.php" class="btn btn-primary mb-3">Inscription</a>
+                            <div class="d-grid gap-2 col-6 mx-auto">	
+                        <a href="inscription.php" class="btn btn-primary mb-3">Inscription</a></div>
             </form>
     </div>
 </div>       

@@ -50,7 +50,7 @@ include_once("dbconnect.php");
 <div class="acces">
     <?php
 $bonjour = $_SESSION['login'];
-  ?> <h1 style="text-align:center; padding-top:10px; color:white;" ><?php echo "bienvenue $bonjour";?></h1>
+  ?> <h4 style="text-align:center; padding-top:10px; color:white;" ><?php echo "Cher $bonjour <br>voici l'affichage sous forme de tableau<br> des utilisateurs dans votre base de donnée";?></h4>
 
         <!-- tableau d'affiche des données utilisateurs -->
         <div class='container  table-responsive-lg'><br>

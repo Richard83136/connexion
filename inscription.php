@@ -70,7 +70,9 @@ include_once("dbconnect.php");
                                 <label for="confirm_password">Confirmez le Password:</label>
                                 <input type="password" name="confirm_password" class="form-control form-control-lg" id="confirm_password">
                             </div>
+                            <div class="d-grid gap-2 col-6 mx-auto">
                             <button type="submit" class="btn btn-primary">Submit</button>
+    </div>
                         </form>
                     </div>
                 </div>
