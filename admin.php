@@ -4,7 +4,7 @@
 if ($_SESSION['login']!=='admin') {
     header('Location: site.php');
 }
-var_dump($_SESSION);
+
 
 include_once("dbconnect.php");
 
