@@ -56,15 +56,15 @@ include_once("dbconnect.php");
                     <form class="w-50" action="profil.php" method="post">
                         <div class="form-group">
                             <label for="login">Modifier votre pseudo</label>
-                            <input type="login" name="login" class="form-control form-control-lg" id="login" placeholder="<?php echo $donnees['login'];   ?>">
+                            <input type="login" name="login" class="form-control form-control-lg" id="login" value="<?php echo $donnees['login'];   ?>">
                         </div>
                         <div class="form-group">
                             <label for="nom">Modifier votre nom</label>
-                            <input type="text" name="nom" class="form-control form-control-lg" id="nom" placeholder="<?php echo $donnees['nom'];   ?>">
+                            <input type="text" name="nom" class="form-control form-control-lg" id="nom" value="<?php echo $donnees['nom'];   ?>">
                         </div>
                         <div class="form-group">
                             <label for="prenom">Modifier votre prénom</label>
-                            <input type="text" name="prenom" class="form-control form-control-lg" id="prenom" placeholder="<?php echo $donnees['prenom'];   ?>">
+                            <input type="text" name="prenom" class="form-control form-control-lg" id="prenom" value="<?php echo $donnees['prenom'];   ?>">
                         </div>
                         <div class="form-group">
                             <label for="password">Modifier votre password</label>
